@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-straight/css/uicons-thin-straight.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
 
-body{
-  background-color: black;
-  color: white;
-  font-family: "Poppins", sans-serif;
+h1{
+  font-size: 4.5rem;
+  font-family: "Source Sans 3", sans-serif;
+}
+h2{
+  font-size: 3rem;
+  font-family: "Source Sans 3", sans-serif;
+}
+h3{
+  font-family: "Source Sans 3", sans-serif;
+}
+.identify{
+  border-radius: 5rem;
 }
