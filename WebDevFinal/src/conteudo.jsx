@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import './content.css'
 import Fila from './assets/P - Fila.png'
 import Ficha from './assets/P - Ficha.png'
 import Triagem from './assets/P - Triagem.png'
@@ -8,7 +9,7 @@ import Triagem from './assets/P - Triagem.png'
 function Conteudo() {
   return (
     <>
-      <div className='my-5 text-center d-flex flex-column gap-5 p-4'>
+      <div className='my-5 text-center d-flex flex-column gap-5 p-4 px-xl-5' id='body-content'>
         <div className="introducao">
           <h2 className='text-primary'>Tecnologias</h2>
           <p className='fs-5'>Todas as nossas tecnologias foram pensadas e desenvolvidas visando uma melhor experiencia durante uma visita no Hospital Sabará. O foco do projeto é a redução de filas utilizando tecnologia de ponta, e claro mantendo a eficiencia e simplicidade.</p>

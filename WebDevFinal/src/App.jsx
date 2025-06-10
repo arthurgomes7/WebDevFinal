@@ -6,9 +6,9 @@ import imagem from './assets/AgilizAI (1).png'
 function App() {
   return (
     <>
-      <div className='d-flex flex-column gap-5 p-4'>
+      <div className='d-flex flex-column gap-5 p-4 text-md-center flex-xl-row'>
         <div className='d-flex flex-column gap-5'>
-          <div className='d-flex flex-column'>
+          <div className='d-flex flex-column '>
             <h1 className=''>AgilizAI</h1>
             <h3 className='text-info'>Sua saúde tem pressa.</h3>
           </div>
